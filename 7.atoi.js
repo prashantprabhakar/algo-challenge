@@ -60,7 +60,7 @@ const tests = [
     { actual: atoi("123- "), expected: 123 },
     { actual: atoi("   -001"), expected: -1 },
     { actual: atoi("   -00"), expected: 0 },
-    // This test case is failing as per leetcode's expected
+    // This test case is failing as per leetcode's expected. Ideally expected should be 2147483647 (2**31-1)
     { actual: atoi("91283472332"), expected: -2147483648},
 ]
 
