@@ -1,5 +1,5 @@
 /**
- * 
+ * url: https://leetcode.com/problems/merge-k-sorted-lists/description/
  * 
  */
 
@@ -28,7 +28,7 @@ function arrayToList(arr) {
     return head;
 }
 
-
+// Time complexity O(n * m)
 function mergeKSortedList(lists) {
     let result = new ListNode();
     let resultHead = result;
